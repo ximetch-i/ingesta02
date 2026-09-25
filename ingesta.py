@@ -30,7 +30,7 @@ with open(ficheroUpload, "w", newline="", encoding="utf-8") as archivo:
 cursor.close()
 conexion.close()
 
-nombreBucket = "gcr-output-01"
+nombreBucket = "xgg-output-01"
 
 s3 = boto3.client("s3")
 
